@@ -160,7 +160,18 @@ O.information = {
                         "BlueNightSky",
                         F.CreateClassColorString("三皈依 @ " .. L["Shadowmoon"] .. "(TW)", "SHAMAN")
                     )
+                },
+                ["4"] = {
+                    order = 4,
+                    type = "description",
+                    name = format(
+                        "%s: %s | %s",
+                        "ylt",
+                        E.InfoColor .. "Joe" .. "|r",
+                        F.CreateClassColorString("Shaype @ " .. "Draenor" .. " (EU)", "DRUID")
+                    )
                 }
+
             }
         },
         version = {
